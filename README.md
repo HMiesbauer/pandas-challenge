@@ -3,6 +3,11 @@ Instructions:
 Using Pandas and Jupyter Notebook, create a report that includes an analysis of thed istrict-wide standardized test results. Your task is to aggregate the data to showcase obvious trends in school performance.
 Your report must include a written description of at least two observable trends based on the data
 
+2/15/24: Corrections to assignment
+Corrected school spending calculations, scores by school type
+
+
+
 Note on code sources & and its location within repo:
 #% passing math (the percentage of students who passed math) scores equal to or greater than 70 - sourced from starter code
 passing_math_count = school_data_complete[(school_data_complete["math_score"] >= 70)].count()["student_name"]
